@@ -31,7 +31,7 @@ class PedidosController extends Controller
 
          
 
-              if ($cantMax<=30) {
+              if ($cantMax<=31) {
 
                   foreach (Session::get('miSessionRut') as $ses) {
                    $fechaHoy= new Datetime(); //Obtiene la fecha de hoy
